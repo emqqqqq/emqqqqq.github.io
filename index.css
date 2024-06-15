@@ -1,0 +1,399 @@
+body
+{
+    margin: 0;
+    font-family: 'Amaranth', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.hr-short 
+{
+    margin:-6px auto 32px;
+    max-width: 150px;
+}    
+.container
+{   text-align: justify;
+    width:1200px;
+    margin:0 auto;
+    font-size: 20px;
+    color:#808080;
+    text-align: center;
+}
+.h1 
+{
+    color: rgb(247, 141, 196);
+    font-size: 30px;
+    color:white;
+}
+h1
+{
+    color: rgb(247, 141, 196);
+    font-weight: lighter;
+    font-size:50px;
+    line-height: 90px;
+    letter-spacing: 1.4px;
+    text-align: center;
+}
+h2
+{
+    font-size: 50px;
+    line-height: 90px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+    color:white;
+}
+.button
+{
+    background-color: rgb(247, 141, 196);
+    font-size: 15px;
+    color:white;
+    padding: 15px;
+    cursor: pointer;
+    border: 2px solid rgb(247, 141, 196);
+}
+.button:hover
+{
+    background-color: rgb(233, 101, 169);
+    transition: 0.3s all ease-out;
+}
+.button-outline 
+{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.button-outline:hover
+{
+    background-color: rgb(233, 101, 169);
+    transition: 0.3s all ease-out;
+    border: none;
+}
+
+/*header*/
+header .container {
+    margin: 0 auto;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px 0 #808080;
+    background:rgba(255, 255, 255, 0.5);
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 1300px;
+}
+#logo {
+    width:290px;
+    height: 83px;
+}
+.link {
+  font-size: 20px;
+  color: #2D3239;
+  padding: 30px 5px;
+  margin-left:40px;
+  text-decoration: none;
+  transition: 0.1s all ease-in-out;
+}
+.link:hover{
+    transition: 0.1s all ease-in-out;
+    color:rgb(233, 101, 169);;
+}
+    
+.main-section p
+{
+    display: inline-block;
+    padding: 0 50px;
+    width: 550px;
+    font-size: 20px;
+    padding: 0;
+    color:white;
+}
+.main-section {
+    max-width: 500px;
+    height: 100vh;
+    position: relative;
+}
+.main-section .positioning {
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);
+}
+.slide1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 98.8vw;
+    height: 100vh;
+    animation:fade 20s infinite;
+    -webkit-animation:fade 20s infinite;
+}
+
+.cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.card
+{
+    background-color: #fff;
+    border-radius:0.4rem;
+    overflow: hidden;
+    box-shadow:0 3rem 6rem rgba(0,0,0,0.1);
+    cursor:pointer;
+    transition:0.2s;
+    width:300px;
+    height:490px;
+    margin-left: 30px;
+}
+.card:hover
+{
+    transform: translateY(-0.5%);
+}
+.card p
+{
+    color:#808080;
+    text-align: left;
+    margin-left: 20px;
+}
+.card h5
+{
+    color:rgba(0, 0, 0, 0.778);
+    font-weight:lighter;
+    font-size: 20px;
+    text-align: left; 
+    margin-left:20px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+.cbutton
+{
+    display: flex;
+    text-decoration:none ;
+}
+.cbutton img 
+{
+    width:20px;
+    height:20px;
+    margin-top:12px;
+    margin-right:-15px;
+}
+.cbutton button
+{
+    
+    background-color: rgb(247, 141, 196);
+    font-size: 15px;
+    color:white;
+    border-radius: 30px;
+    width:120px;
+    border: none;
+    padding:10px;
+    cursor: pointer;
+    margin-left: 20px; 
+    margin-right:20px;
+}
+.cbutton p
+{
+    color:rgb(247, 141, 196);
+}
+.cbutton button:hover
+{
+    background-color: rgb(233, 101, 169);
+}
+
+.love
+{
+    display: flex;
+    justify-content: center;
+}
+figure
+{
+    overflow: hidden;
+    margin: 0 10px;
+}
+.box img
+{
+    width:350px;
+    display: block;
+    transition: transform 2s;
+
+}
+.box img:hover
+{
+    transform: scale(1.3);
+}
+
+.footer
+{
+    text-align: center;
+    margin-top: 30px;
+    background-color: #6F3662;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 20px;
+    position: absolute;
+    left:0;
+    width:100%;
+}
+.footer .container {
+    color: white;
+}
+.footer h1{
+    color:white;
+}
+.email
+{
+    padding:0px 10px;
+    width:50%;
+    height:50px;
+    background-color: #774e6d9e;
+    border: none;
+    border-radius: 20px;
+}
+.textarea
+{
+    padding:10px;
+    width:50%;
+    height:50px;
+    background-color: #774e6d9e;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.subscribe-button
+{
+    background-color: rgb(247, 141, 196);
+    color:white;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 13px;
+    width: 91px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.subscribe-button:hover
+{
+    background-color: rgb(233, 101, 169);
+    transition: 0.3s;
+}
+.contact-footer
+{
+    margin: 0 auto;
+    margin-bottom:50px;
+}
+.contact-footer img
+{
+    padding:10px;
+    background-color: rgb(233, 101, 169, 0.5);
+    z-index: 5;
+    margin:-6px 0px 0px 5px;
+    width: 20px;
+}
+.contact-footer img:hover
+{
+    background-color: rgba(140, 65, 104, 0.5);
+    transition: 0.3s;
+}
+
+/*modal read*/
+h3{
+    font-size: 30px;
+    color:black;
+}
+.readmodal 
+{
+    display: none; 
+    position: fixed; 
+    z-index: 99999999999;
+    padding-top: 120px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-read 
+{
+    margin: auto;
+    margin-top: -60px;
+    padding: 20px;
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    font-size: larger;
+    overflow-y: auto;
+}
+.closeread {
+    color: rgb(71, 70, 70);
+    margin-top:-95px;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    position: relative;
+    z-index: 999999;
+}
+.closeread:hover,
+.closeread:focus 
+{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-read img
+{
+    width:20px;
+    height:20px;
+    margin-right: 15px;
+}
+.modal-flex
+{
+    display: flex;
+}
+.modalread-button
+{
+    margin-top:20px;
+    margin-left: 90px;
+    background-color: rgb(247, 141, 196);
+    font-size: 15px;
+    color:white;
+    padding: 15px 108px;
+    cursor: pointer;
+    border: 2px solid rgb(247, 141, 196);
+}
+.modalread-button:hover
+{
+    background-color: rgb(233, 101, 169);
+    transition: 0.3s all ease-out;
+}
+.modal-read h5
+{
+    color:black;
+
+}
+.modal-read p
+{
+    color:#2D3239;
+    font-size: 20px;
+    text-align: justify;
+}
+.modal-read ul li
+{
+    font-size: large;
+    color:#2D3239;
+    list-style-image: url('./images/checked.png');
+}
